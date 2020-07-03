@@ -1,0 +1,45 @@
+{
+  "name": "routing_http",
+  "version": "1.0.0",
+  "description": "Routing con http y url + web con datos terremotos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp all"
+  },
+  "author": "Aurora MMS",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "autoprefixer": "^9.8.0",
+    "dotenv": "^8.2.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cssbeautify": "^2.0.1",
+    "gulp-html-autoprefixer": "0.0.1",
+    "gulp-html-lint": "0.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-responsive": "^3.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.11.1",
+    "node-sass": "^4.14.1",
+    "stylelint": "^13.6.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}

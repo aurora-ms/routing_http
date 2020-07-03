@@ -1,0 +1,67 @@
+body {
+  background-color: #9e200a;
+  font-family: sans-serif;
+  color: white;
+}
+
+header {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding: 21px 0;
+  border-bottom: 2px solid white;
+}
+
+nav {
+  text-align: center;
+  padding: 30px 0;
+  background: #ee9e49;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 20px 10px 20px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid white;
+}
+
+.imges {
+  position: relative;
+  width: 50%;
+}
+
+.imges img {
+  position: absolute;
+  left: 25%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main div.flex {
+  margin-top: 60px;
+}
+
+main hr {
+  width: 70%;
+  margin: auto;
+}
+
+main div.dataCont {
+  width: 60%;
+  margin: auto;
+}
+
+.dataCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=style.css.map */
